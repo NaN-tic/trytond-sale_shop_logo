@@ -5,9 +5,9 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['Shop']
-__metaclass__ = PoolMeta
 
 
 class Shop:
+    __metaclass__ = PoolMeta
     __name__ = 'sale.shop'
     logo = fields.Binary('Logo')
